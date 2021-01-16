@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Tanvir  Ferdousi | Tanvir Ferdousi</title>
+<title>Tanvir  Ferdousi | Contact tracing with Ebola</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/ebola/">
 
 <!-- Theming-->
 
@@ -149,56 +149,37 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>Here are some articles that you might find useful</h2>
+  <header class="post-header">
+    <h1 class="post-title">Contact tracing with Ebola</h1>
+    <p class="post-description">Quantifying the impact of early-stage contact tracing using activity driven networks</p>
+  </header>
+
+  <article>
+    <p>Contact tracing is a mitigation strategy which can help contain an infectious outbreak if it is deployed in time. In this work, we use analyze the effect of early-stage contact tracing using a mathematical modeling framework. We use a patient-centric dynamic contact model using activity driven networks (ADN). To simulate the disease spread and the contact tracing process, we use a stochastic transitions among epidemiological states</p>
+
+<div class="row justify-content-center">
+  <div class="col-sm-8">
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/ebola/ebolaCT_model.jpg" alt="" title="Ebola contact tracing model" />
   </div>
+</div>
+<div class="caption">
+    A diagram of the stochastic transition processes of the Ebola contact tracing model. We use a \(SEIR\) model with an additional compartment \(H\). The symbols \( S, E, I, H, \) and \( R \) indicate susceptible, exposed, infectious, hospitalized, and removed states respectively. The states with superscript \(T\) indicates individuals in similar states after being traced. The transitions rate symbols \( \alpha, \beta, \lambda, \gamma, \) and \( \delta \) indicate the rates of identification, transmission, incubation, hospitalization, removal/recovery.
+</div>
 
+<p>Our results indicate that it is critical to start contact tracing within a few days (&lt; 10 days), if not immediately after the disease emergence. Quick identification of contacts can reduce the outbreak size up to 50% compared to delayed detection.</p>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2015/comments/">a post with comments</a></h3>
-        <p class="post-meta">October 20, 2015</p>
-        <p>an example of a blog post with comments</p>
-      </li>
-    
-  </ul>
+<div class="row justify-content-center">
+  <div class="col-sm-8">
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/ebola/r0_vs_alpha.jpg" alt="" title="Basic reproductive number vs. identification delay" />
+  </div>
+</div>
+<div class="caption">
+    The basic reproductive number (\( R_0 \)) as a function of the detection delay (\( \alpha^{-1} \)) for three different contact tracing scenarios as indicated in the legend box.
+</div>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="Tanvir Ferdousi">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="Tanvir Ferdousi - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="Tanvir Ferdousi - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<p>The work was published in Mathematical Biosciences and Engineering (MBE) journal which can be accessed via this <a href="https://www.aimspress.com/article/10.3934/mbe.2018053">link</a>. The official project page of the NetSE group can be found <a href="https://www.ece.k-state.edu/netse/projects/sprojects/proj0.html">here</a>.</p>
 
-
+  </article>
 
 </div>
 
