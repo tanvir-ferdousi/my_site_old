@@ -28,4 +28,9 @@ Our results indicate that it is critical to start contact tracing within a few d
     The basic reproductive number (\( R_0 \)) as a function of the detection delay (\( \alpha^{-1} \)) for three different contact tracing scenarios as indicated in the legend box.
 </div>
 
-The work was published in Mathematical Biosciences and Engineering (MBE) journal which can be accessed via this [link](https://www.aimspress.com/article/10.3934/mbe.2018053). The official project page of the NetSE group can be found [here](https://www.ece.k-state.edu/netse/projects/sprojects/proj0.html).
+| Publication | Source Code | Official Project Page |
+|-------------|----------|--------|
+| [Mathematical Biosciences and Engineering](https://www.aimspress.com/article/10.3934/mbe.2018053) | Not Published | [K-State NetSE](https://www.ece.k-state.edu/netse/projects/sprojects/proj0.html) |
+{:.table .table-bordered}
+
+<!-- The work was published in Mathematical Biosciences and Engineering (MBE) journal which can be accessed via this [link](https://www.aimspress.com/article/10.3934/mbe.2018053). The official project page of the NetSE group can be found [here](https://www.ece.k-state.edu/netse/projects/sprojects/proj0.html). -->
