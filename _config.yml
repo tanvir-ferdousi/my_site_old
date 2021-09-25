@@ -6,7 +6,7 @@ title: Tanvir Ferdousi # the website title (if blank, full name will be used ins
 first_name: Tanvir
 middle_name:
 last_name: Ferdousi
-email: tanvirf@ksu.edu
+email: tanvir@virginia.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -41,7 +41,7 @@ github_username: tanvir-ferdousi # your GitHub user name
 twitter_username: tanvir_ferdousi # your Twitter handle
 linkedin_username: tanvir-ferdousi # your LinkedIn user name
 scholar_userid: tEofsW0AAAAJ # your Google Scholar ID
-orcid_id: # your ORCID ID
+orcid_id: 0000-0003-2847-3494 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
