@@ -3,6 +3,18 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{ferdousi2023machine,
+  abbr={ACM/SIGSIM},
+  title={A Machine Learning Framework to Explain Complex Geospatial Simulations: A Climate Change Case Study},
+  author={Ferdousi, Tanvir and Liu, Mingliang and Rajagopalan, Kirti and Adam, Jennifer and Adiga, Abhijin and Wilson, Mandy and Ravi, SS and Vullikanti, Anil and Marathe, Madhav V and Swarup, Samarth},
+  abstract={The explainability of large and complex simulation models is an open problem. We present a framework to analyze such models by processing multidimensional data through a pipeline of target variable computation, clustering, supervised classification, and feature importance analysis. As a use case, the well-known large-scale hydrology and crop systems simulator VIC-CropSyst is utilized to evaluate how climate change may affect water availability in Washington, United States. We study how snowmelt varies with climate variables (temperature, precipitation) to identify different response characteristics. Based on these characteristics, spatial units are clustered into six distinct classes. A random forest classifier is used with Shapley values to rank static soil and land parameters that help detect each class. The results also include an analysis of risk across different classes to identify areas vulnerable to climate change. This paper demonstrates the usefulness of the proposed framework in providing explainability for large and complex simulations.},
+  pdf={explainability_wsc23.pdf},
+  journal={Winter Simulation Conference,},
+  year={2023},
+  selected={true},
+  publisher={WSC}
+}
+
 @article{shahtori2018quantifying,
   abbr={AIMS},
   title={Quantifying the impact of early-stage contact tracing on controlling Ebola diffusion},
@@ -26,7 +38,7 @@
   html={https://www.nature.com/articles/s41598-019-43651-3},
   pdf={s41598-019-43651-3.pdf},
   volume={9},
-  number={1},
+  number={3},
   pages={1--15},
   year={2019},
   selected={true},
@@ -74,6 +86,7 @@
   volume={8},
   pages={154833--154847},
   year={2020},
+  number={2},
   selected={false},
   publisher={IEEE}
 }
@@ -89,6 +102,21 @@
   volume={9},
   pages={141210--141222},
   year={2021},
+  selected={false},
+  publisher={IEEE}
+}
+
+@article{ferdousi2022web,
+  abbr={IEEE},
+  title={A Web-Based System for Contagion Simulations on Networked Populations},
+  author={Ferdousi, Tanvir and Kishore, Aparna and Machi, Lucas and Machi, Dustin and Kuhlman, Chris J and Ravi, SS},
+  abstract={Motivated by a wide range of applications, research on agent-based models of contagion propagation over networks has attracted a lot of attention in the literature. Many of the available software systems for simulating such agent-based models require users to download software, build the executable, and set up execution environments. Further, running the resulting executable may require access to high performance computing clusters. Our work describes an open access software system (NetSimS) that works under the “Modeling and Simulation as a Service” (MSaaS) paradigm. It enables users to run simulations by selecting models and parameter values, initial conditions, and networks through a web interface. The system supports a variety of models and networks with millions of nodes and edges. In addition to the simulator, the system includes components that enable users to choose initial conditions for simulations in a variety of ways, to analyze the data generated through simulations, and to produce plots from the data. We describe the components of NetSimS and carry out a performance evaluation of the system. We also discuss two case studies carried out on large networks using the system. NetSimS is a major component within net.science, a cyberinfrastructure for network science.},
+  html={https://doi.org/10.1109/eScience55777.2022.00044},
+  pdf={eScience55777.2022.00044.pdf},
+  journal={2022 IEEE 18th International Conference on e-Science (e-Science),},
+  pages={306--315},
+  year={2022},
+  number={1},
   selected={true},
   publisher={IEEE}
 }
